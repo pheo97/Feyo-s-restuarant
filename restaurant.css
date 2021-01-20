@@ -1,0 +1,72 @@
+body,html
+{
+    margin: 0;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+.nav-bar
+{ 
+   background-color: #000000;
+   color: white;
+}
+.nav-bar .nav-links
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+}
+
+.nav-bar .nav-links a
+{
+   margin: 0 50px;
+ 
+}
+
+.backimage
+{ 
+    height: 100%;
+    background-image: url("/Restaurant/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.booking .registerform
+{
+    position: absolute;
+    right:2;
+    
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    padding: 16px;
+    opacity: 0.4;
+}
+
+.booking .registerform:hover
+{
+    opacity:1.0;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  button
+  {
+    background-color: #e9e2bb;
+    width: 50%;
+    padding:20px 0px;
+    float: left;
+  }
+  #loginbtn
+  {
+      background-color: #e9d773;
+  }
