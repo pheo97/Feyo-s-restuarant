@@ -32,9 +32,11 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
 }
-
+.backimage2
+{
+    background-color: gray;
+}
 .booking .registerform
 {
     position: absolute;
@@ -70,3 +72,19 @@ input[type=text], input[type=password], input[type=email] {
   {
       background-color: #e9d773;
   }
+
+.col-sm
+{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+span{
+    display: block;
+}
